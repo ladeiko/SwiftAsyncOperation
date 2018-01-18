@@ -52,12 +52,6 @@ open class AsyncOperation : Operation {
     }
     
     open override func start() {
-        
-        if isCancelled {
-            isFinished = true
-            return
-        }
-        
         isExecuting = true
         
         _job(self) {

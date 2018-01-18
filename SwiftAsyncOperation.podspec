@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'SwiftAsyncOperation'
-    s.version = '1.0.0'
+    s.version = '1.1.0'
     s.summary = 'OperationQueue async operation for Swift >= 3'
     s.homepage = 'https://github.com/ladeiko/SwiftAsyncOperation'
     s.license = { :type => 'CUSTOM', :file => 'LICENSE' }

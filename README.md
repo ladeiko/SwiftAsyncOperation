@@ -4,6 +4,15 @@ OperaionQueue async operation for Swift >= 3 based on block.
 
 It helps to run async operations with ability to be canceled.
 
+## History
+
+### 1.1.0
+ - Removed checking of *isCanceled* in *start* routine, because in another case *job* callback is not called and user logic cannot determine if operation was canceled without overriding *cancel* method.
+ 
+### 1.0.0
+
+ - Initial version
+
 
 ## Installation
 
